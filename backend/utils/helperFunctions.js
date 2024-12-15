@@ -1,0 +1,1 @@
+//admin home, available slots, prices, users, bookings, transaction, reports
