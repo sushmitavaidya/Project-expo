@@ -1,0 +1,38 @@
+.transactions-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .transactions-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .transactions-table th,
+  .transactions-table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .transactions-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .transactions-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .no-transactions {
+    text-align: center;
+    color: #999;
+  }
+  

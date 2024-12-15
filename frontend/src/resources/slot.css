@@ -1,0 +1,27 @@
+.slot-container{
+    width: 400px !important;
+    border: 2px solid gray;
+    padding: 10px;
+
+
+}
+
+.slot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    
+}
+
+.selected-slot{
+    background-color:green;
+    color:white;
+}
+    
+.booked-slot{
+    background-color:red;
+    color: white;
+}

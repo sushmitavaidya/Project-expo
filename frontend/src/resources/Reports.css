@@ -1,0 +1,56 @@
+/* General Styles */
+.container {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 15px; /* Reduced gap below the heading */
+}
+
+/* Grey Container Styling */
+.grey-container {
+  background-color: #f5f5f5; /* Light grey background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Date Picker Styling */
+.date-picker-input {
+  position: relative;
+  width: 100%;
+}
+
+.date-picker-input input {
+  width: 100%;
+  padding-right: 40px;
+  cursor: default;
+}
+
+.calendar-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Button Styling */
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Labels and Input Alignment */
+label {
+  margin-bottom: 0; /* Remove extra gap below labels */
+}
+
+/* Adjust the spacing and alignment */
+.row {
+  margin-bottom: 15px; /* Consistent spacing between rows */
+}
